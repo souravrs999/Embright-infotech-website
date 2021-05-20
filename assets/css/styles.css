@@ -4603,10 +4603,10 @@ blockquote {
   display: flex;
   height: 4em;
   min-height: 4em;
-  min-width: 12em;
+  min-width: 10em;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 0px 2em;
+  padding: 0px 1em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -4797,7 +4797,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   height: 4em;
-  min-width: 12em;
+  min-width: 10em;
   margin-top: 0px;
   padding: 0px 2em;
   -webkit-box-orient: vertical;
@@ -5157,7 +5157,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   height: 4em;
-  min-width: 12em;
+  min-width: 10em;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-right: 2em;
@@ -7310,12 +7310,12 @@ blockquote {
 
 @media screen and (min-width: 1280px) {
   .nav-link {
-    padding-right: 2em;
-    padding-left: 2em;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
   }
 
   .button-colored.margin-left-1x {
-    margin-left: 2em;
+    margin-left: 1em;
   }
 
   .home-hero-grid {
