@@ -5293,13 +5293,13 @@ blockquote {
       from(rgba(43, 45, 66, 0.72)),
       to(rgba(43, 45, 66, 0.72))
     ),
-    url('/assets/img/home-section/home-section-bg-cover.jpeg');
+    url('../../assets/img/home-section/home-section-bg-cover.jpeg');
   background-image: linear-gradient(
       180deg,
       rgba(43, 45, 66, 0.72),
       rgba(43, 45, 66, 0.72)
     ),
-    url('/assets/img/home-section/home-section-bg-cover.jpeg');
+    url('../../assets/img/home-section/home-section-bg-cover.jpeg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
