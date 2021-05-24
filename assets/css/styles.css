@@ -6328,8 +6328,8 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 2em;
-  width: 2em;
+  height: 100%;
+  width: 100%;
   margin-bottom: 0px;
   padding: 0px 0px;
   -webkit-box-pack: center;
@@ -6340,9 +6340,14 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 50%;
-  background-color: rgba(43, 45, 66, 0.50);
+  /* border-radius: 50%; */
+  background-color: rgba(0, 0, 0, 0.40);
   color: #fff;
+}
+.classes-item-title-text:hover {
+  background-color: transparent;
+  transition-timing-function: ease;
+  transition: 0.5s;
 }
 
 .success-message {
