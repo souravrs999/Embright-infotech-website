@@ -2,6 +2,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -4587,6 +4588,7 @@ blockquote {
   height: 4em;
   padding-right: 1em;
   padding-left: 1em;
+  font-size: 20px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: #a6a6a6;
@@ -7152,7 +7154,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 4em;
+  width: 5em;
   height: 3em;
   margin-right: 0.40966816878328555em;
   -webkit-box-pack: center;
@@ -7314,8 +7316,8 @@ blockquote {
 
 @media screen and (min-width: 1280px) {
   .nav-link {
-    padding-right: 1.2em;
-    padding-left: 1.2em;
+    padding-right: 2em;
+    padding-left: 2em;
   }
 
   .button-colored.margin-left-1x {
