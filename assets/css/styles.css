@@ -4560,7 +4560,7 @@ h6 {
 p {
   margin-bottom: 1em;
   opacity: 0.64;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 a {
@@ -4576,6 +4576,7 @@ a:hover {
 }
 
 blockquote {
+  height: 10em;
   margin-bottom: 0.8em;
   padding: 0px;
   border: 1px none #000;
@@ -5665,6 +5666,21 @@ blockquote {
   grid-template-columns: min-content min-content min-content;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.testimonials-social-buttons-grid {
+    left: auto;
+    margin-top: 1.5em;
+    right: auto;
+    bottom: 2em;
+    grid-column-gap: 5em;
+    grid-row-gap: 1em;
+    -ms-grid-columns: -webkit-min-content -webkit-min-content -webkit-min-content;
+    -ms-grid-columns: min-content min-content min-content;
+    grid-template-columns: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content min-content;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
 }
 
 .button-social {
@@ -7159,7 +7175,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 5em;
+  width: 6em;
   height: 3em;
   margin-right: 0.40966816878328555em;
   -webkit-box-pack: center;
@@ -8154,6 +8170,9 @@ blockquote {
   padding: 15px 20px;
   text-decoration: none;
   display: block;
+}
+.dropdown-content p {
+  font-size: 10px;
 }
 .dropdown-content a:hover {
   color: #1da1f2;
