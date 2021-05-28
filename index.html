@@ -20,9 +20,23 @@
     <meta property="og:type" content="website" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Webflow" name="generator" />
     <link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
     <link href="assets/js/vendor/lity/lity.min.css" rel="stylesheet" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PXY5R1LWWD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PXY5R1LWWD");
+    </script>
     <script
       src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
       type="text/javascript"
@@ -45,7 +59,7 @@
     <link href="assets/img/rs=w_64,h_64,m.png" rel="apple-touch-icon" />
   </head>
   <body>
-    <!-- Nav Section -->
+    <!-- hero section -->
     <div class="home-hero-section">
       <div
         data-collapse="medium"
@@ -62,7 +76,6 @@
             ><div class="brand-logo">
               <img src="assets/img/embright Logo white.png" />
             </div>
-            <!-- <h2 class="brand-text">Clemus</h2> -->
           </a>
           <div
             class="menu-button w-nav-button w--open"
@@ -88,52 +101,32 @@
               class="nav-link w-nav-link w--current"
               >Home</a
             >
-            <!-- <a href="about.html" class="nav-link w-nav-link">about Us</a> -->
             <div class="dropdown">
               <a href="classes.html" class="nav-link w-nav-link">Products</a>
               <div class="dropdown-content">
-                <a href="https://www.myauticare.com/">Auticare ›
-                  <p>Go to auticare website</p></a>
-                <a href="https://www.eduoskus.com/">Eduoskus ›
-                  <p>Go to eduoskus website</p></a>
-                <a href="http://www.xr-event.com/">XR Event ›
-                  <p>Go to xr-events website</p></a>
+                <a href="https://www.myauticare.com/"
+                  >Auticare ›
+                  <p>
+                    An XR-AI based Assistive Technology tool and a learning
+                    platform
+                  </p></a
+                >
+                <a href="https://www.eduoskus.com/"
+                  >Eduoskus ›
+                  <p>
+                    The one stop platform for all teaching and learning
+                    solutions
+                  </p></a
+                >
+                <a href="http://www.xr-event.com/"
+                  >XR Event ›
+                  <p>Go to xr-events website</p></a
+                >
               </div>
             </div>
-            <!-- <a href="contact.html" class="nav-link w-nav-link">Support</a> -->
-            <!-- <div class="dropdown"> -->
             <a class="nav-link w-nav-link dropbtn">Services</a>
-            <!-- <div class="dropdown-content">
-                <a href="#">Healthcare ›</a>
-                <a href="#">Education ›</a>
-                <a href="#">Events/Exhibitions ›</a>
-                <a href="#">Tourism ›</a>
-                <a href="#">Retail ›</a>
-                <a href="#">Corporate Training ›</a>
-                <a href="#">Industry Training ›</a>
-                <a href="#">Workshops/Training/Courses ›</a>
-              </div>
-            </div> -->
             <a href="contact.html" class="nav-link w-nav-link">Events</a>
-            <!-- <div class="dropdown">
-              <a class="nav-link w-nav-link dropbtn">Industries ›</a>
-              <div class="dropdown-content">
-                <a href="#">XR ›</a>
-                <a href="#">VR ›</a>
-                <a href="#">AR ›</a>
-                <a href="#">MR ›</a>
-                <a href="#">AI/ML ›</a>
-                <a href="#">IoT ›</a>
-                <a href="#">DataScience ›</a>
-                <a href="#">Block Chain ›</a>
-              </div>
-            </div> -->
-            <!-- <a href="contact.html" class="nav-link w-nav-link">Publications</a>
-            <a href="contact.html" class="nav-link w-nav-link">Customers</a>
-            <a href="contact.html" class="nav-link w-nav-link">Blogs</a> -->
-
             <a href="#" class="nav-link w-nav-link">Careers</a>
-
             <a
               href="membership.html"
               class="button-colored margin-left-1x w-button"
@@ -146,7 +139,6 @@
       </div>
       <div class="w-layout-grid home-hero-grid" id="hero-section">
         <div class="hero-grid-column-1">
-          <!-- <h6>Since 2020</h6> -->
           <h1 class="hero-title-text">
             Take one step to
             <span class="text-color">the inevitable future,</span> Start
@@ -164,9 +156,6 @@
             <a href="#about-section" class="button-colored w-button"
               >read more</a
             >
-            <!-- <a href="membership.html" class="button-light-outline w-button"
-              >Start Today</a
-            > -->
           </div>
         </div>
         <div
@@ -224,11 +213,11 @@
           data-object-fit="cover"
         >
           <source
-            src="assets/video/hero-section-poster-video.mp4"
+            src="assets/video/hero-section-poster-video-1.mp4"
             data-wf-ignore="true"
           />
           <source
-            src="assets/video/hero-section-poster-video.mp4"
+            src="assets/video/hero-section-poster-video-1.mp4"
             data-wf-ignore="true"
           />
         </video>
@@ -255,7 +244,7 @@
                 class="image"
               />
             </div>
-            <h3 class="home-features-title-text">Personal Trainer</h3>
+            <h3 class="home-features-title-text">Auticare</h3>
             <div class="div-line"></div>
             <p>
               Nam hendrerit enim cursus, cursus neque quis, vulputate est.
@@ -278,7 +267,7 @@
                 class="home-features-icon-placeholder"
               />
             </div>
-            <h3 class="home-features-title-text">Online Classes</h3>
+            <h3 class="home-features-title-text">Eduoskus XR</h3>
             <div class="div-line"></div>
             <p>
               Nam hendrerit enim cursus, cursus neque quis, vulputate est.
@@ -301,7 +290,7 @@
                 alt=""
               />
             </div>
-            <h3 class="home-features-title-text">latest Equipment</h3>
+            <h3 class="home-features-title-text">XR Event</h3>
             <div class="div-line"></div>
             <p>
               Nam hendrerit enim cursus, cursus neque quis, vulputate est.
@@ -324,7 +313,7 @@
                 alt=""
               />
             </div>
-            <h3 class="home-features-title-text">Social Distancing</h3>
+            <h3 class="home-features-title-text">Services</h3>
             <div class="div-line"></div>
             <p>
               Nam hendrerit enim cursus, cursus neque quis, vulputate est.
@@ -351,7 +340,7 @@
         </div>
         <div class="partners-block">
           <img
-            src="assets/img/partner-section/Startup_India_Logo.png"
+            src="assets/img/partner-section/Google_Cloud_Platform-Logo.wine.png"
             loading="lazy"
             height=""
             alt=""
@@ -414,6 +403,8 @@
         </div>
       </div>
     </div>
+
+    <!-- About section -->
     <div class="home-about-section" id="about-section">
       <div class="vertical-line-top"></div>
       <div class="w-layout-grid home-about-grid">
@@ -467,14 +458,10 @@
             Autism Spectrum Disorder, other neuro developmental disorders and
             special education.
           </p>
-          <div class="buttons-grid">
-            <!-- <a href="about.html" class="button-colored w-button">read more</a
-            ><a href="membership.html" class="button-dark-outline w-button"
-              >Start Today</a
-            > -->
-          </div>
         </div>
       </div>
+
+      <!-- Gallery section -->
       <div class="vertical-line-bottom"></div>
     </div>
     <div class="home-classes-section">
@@ -488,20 +475,14 @@
       <div class="home-classes-wrapper">
         <div class="classes-list-wrapper w-dyn-list">
           <div role="list" class="classes-list w-dyn-items">
+            <!-- item -->
             <div role="listitem" class="classes-item w-dyn-item">
               <a
                 href="assets/img/gallery-section/nasa-thumb.png"
                 class="classes-item-link-block w-inline-block"
                 data-lity
                 ><div class="classes-item-image-wrapper">
-                  <h3 class="classes-item-title-text">
-                    <!-- <img
-                      src="assets/img/home-section/home-section-plus-icon.svg"
-                      alt=""
-                      height="50px"
-                      width="50px"
-                    /> -->
-                  </h3>
+                  <h3 class="classes-item-title-text"></h3>
                   <div
                     style="
                       background-image: url('assets/img/gallery-section/nasa-thumb.png');
@@ -510,20 +491,15 @@
                   ></div></div
               ></a>
             </div>
+
+            <!-- item -->
             <div role="listitem" class="classes-item w-dyn-item">
               <a
                 href="assets/img/gallery-section/nvidia-inception-thumb.png"
                 class="classes-item-link-block w-inline-block"
                 data-lity
                 ><div class="classes-item-image-wrapper">
-                  <h3 class="classes-item-title-text">
-                    <!-- <img
-                      src="assets/img/home-section/home-section-plus-icon.svg"
-                      alt=""
-                      height="50px"
-                      width="50px"
-                    /> -->
-                  </h3>
+                  <h3 class="classes-item-title-text"></h3>
                   <div
                     style="
                       background-image: url('assets/img/gallery-section/nvidia-inception-thumb.png');
@@ -532,20 +508,15 @@
                   ></div></div
               ></a>
             </div>
+
+            <!-- item -->
             <div role="listitem" class="classes-item w-dyn-item">
               <a
                 href="assets/img/gallery-section/jio-gennext-thumb.jpg"
                 class="classes-item-link-block w-inline-block"
                 data-lity
                 ><div class="classes-item-image-wrapper">
-                  <h3 class="classes-item-title-text">
-                    <!-- <img
-                      src="assets/img/home-section/home-section-plus-icon.svg"
-                      alt=""
-                      height="50px"
-                      width="50px"
-                    /> -->
-                  </h3>
+                  <h3 class="classes-item-title-text"></h3>
                   <div
                     style="
                       background-image: url('assets/img/gallery-section/jio-gennext-thumb.jpg');
@@ -554,20 +525,15 @@
                   ></div></div
               ></a>
             </div>
+
+            <!-- item -->
             <div role="listitem" class="classes-item w-dyn-item">
               <a
                 href="assets/img/gallery-section/data-inno-thumb.jpg"
                 class="classes-item-link-block w-inline-block"
                 data-lity
                 ><div class="classes-item-image-wrapper">
-                  <h3 class="classes-item-title-text">
-                    <!-- <img
-                      src="assets/img/home-section/home-section-plus-icon.svg"
-                      alt=""
-                      height="50px"
-                      width="50px"
-                    /> -->
-                  </h3>
+                  <h3 class="classes-item-title-text"></h3>
                   <div
                     style="
                       background-image: url('assets/img/gallery-section/data-inno-thumb.jpg');
@@ -576,20 +542,15 @@
                   ></div></div
               ></a>
             </div>
+
+            <!-- item -->
             <div role="listitem" class="classes-item w-dyn-item">
               <a
                 href="assets/img/gallery-section/gitex-thumb.png"
                 class="classes-item-link-block w-inline-block"
                 data-lity
                 ><div class="classes-item-image-wrapper">
-                  <h3 class="classes-item-title-text">
-                    <!-- <img
-                      src="assets/img/home-section/home-section-plus-icon.svg"
-                      alt=""
-                      height="50px"
-                      width="50px"
-                    /> -->
-                  </h3>
+                  <h3 class="classes-item-title-text"></h3>
                   <div
                     style="
                       background-image: url(assets/img/gallery-section/gitex-thumb.png);
@@ -598,20 +559,15 @@
                   ></div></div
               ></a>
             </div>
+
+            <!-- item -->
             <div role="listitem" class="classes-item w-dyn-item">
               <a
                 href="assets/img/gallery-section/iim-catalyst-thumb.png"
                 class="classes-item-link-block w-inline-block"
                 data-lity
                 ><div class="classes-item-image-wrapper">
-                  <h3 class="classes-item-title-text">
-                    <!-- <img
-                      src="assets/img/home-section/home-section-plus-icon.svg"
-                      alt=""
-                      height="50px"
-                      width="50px"
-                    /> -->
-                  </h3>
+                  <h3 class="classes-item-title-text"></h3>
                   <div
                     style="
                       background-image: url('assets/img/gallery-section/iim-catalyst-thumb.png');
@@ -620,20 +576,15 @@
                   ></div></div
               ></a>
             </div>
+
+            <!-- item -->
             <div role="listitem" class="classes-item w-dyn-item">
               <a
                 href="assets/img/gallery-section/GEM-PORTAL.jpg"
                 class="classes-item-link-block w-inline-block"
                 data-lity
                 ><div class="classes-item-image-wrapper">
-                  <h3 class="classes-item-title-text">
-                    <!-- <img
-                      src="assets/img/home-section/home-section-plus-icon.svg"
-                      alt=""
-                      height="50px"
-                      width="50px"
-                    /> -->
-                  </h3>
+                  <h3 class="classes-item-title-text"></h3>
                   <div
                     style="
                       background-image: url('assets/img/gallery-section/GEM-PORTAL.jpg');
@@ -642,20 +593,15 @@
                   ></div></div
               ></a>
             </div>
+
+            <!-- item -->
             <div role="listitem" class="classes-item w-dyn-item">
               <a
                 href="assets/img/gallery-section/nidhi-pryas-thumb.png"
                 class="classes-item-link-block w-inline-block"
                 data-lity
                 ><div class="classes-item-image-wrapper">
-                  <h3 class="classes-item-title-text">
-                    <!-- <img
-                      src="assets/img/home-section/home-section-plus-icon.svg"
-                      alt=""
-                      height="50px"
-                      width="50px"
-                    /> -->
-                  </h3>
+                  <h3 class="classes-item-title-text"></h3>
                   <div
                     style="
                       background-image: url('assets/img/gallery-section/nidhi-pryas-thumb.png');
@@ -666,6 +612,8 @@
             </div>
           </div>
         </div>
+
+        <!-- counter section -->
         <div class="w-layout-grid facts-grid">
           <div class="partners-grid-vertical-spacing-block"></div>
           <div class="partners-grid-vertical-spacing-block"></div>
@@ -688,7 +636,10 @@
             <div class="facts-detail-text">Happy Clients</div>
           </div>
         </div>
+
+        <!-- testimonial section -->
         <div class="w-layout-grid testimonials-grid">
+          <!-- block -->
           <div class="testimonial-block">
             <img
               src="assets/img/team-section/Sathyanarayanan.jpg"
@@ -739,6 +690,7 @@
               /></a>
             </div>
           </div>
+          <!-- block -->
           <div class="testimonial-block">
             <img
               src="assets/img/team-section/BobinChandra.jpg"
@@ -806,6 +758,7 @@
       <div class="aux-block">
         <div class="home-trainers-list-wrapper w-dyn-list">
           <div role="list" class="trainers-list w-dyn-items">
+            <!-- item -->
             <div role="listitem" class="trainers-item w-dyn-item">
               <a
                 href="trainers/thomas-brown.html"
@@ -881,6 +834,7 @@
                 /></a>
               </div>
             </div>
+            <!-- item -->
             <div role="listitem" class="trainers-item w-dyn-item">
               <a
                 href="trainers/alice-hart.html"
@@ -953,6 +907,7 @@
                 /></a>
               </div>
             </div>
+            <!-- item -->
             <div role="listitem" class="trainers-item w-dyn-item">
               <a
                 href="trainers/rachel-smith.html"
@@ -1028,6 +983,7 @@
                 /></a>
               </div>
             </div>
+            <!-- item -->
             <div role="listitem" class="trainers-item w-dyn-item">
               <a
                 href="trainers/daniel-faber.html"
@@ -1100,6 +1056,7 @@
                 /></a>
               </div>
             </div>
+            <!-- item -->
             <div role="listitem" class="trainers-item w-dyn-item">
               <a
                 href="trainers/alice-hart.html"
@@ -1172,7 +1129,7 @@
                 /></a>
               </div>
             </div>
-
+            <!-- item -->
             <div role="listitem" class="trainers-item w-dyn-item">
               <a
                 href="trainers/thomas-brown.html"
@@ -1248,7 +1205,7 @@
                 /></a>
               </div>
             </div>
-
+            <!-- item -->
             <div role="listitem" class="trainers-item w-dyn-item">
               <a
                 href="trainers/alice-hart.html"
@@ -1259,7 +1216,7 @@
                   <div class="trainers-image-wrapper">
                     <img
                       loading="lazy"
-                      src="assets/img/team-section/sourav.jpeg"
+                      src="assets/img/team-section/ajmal_khan.jpeg"
                       alt=""
                       class="trainers-image"
                     />
@@ -1275,7 +1232,7 @@
                   <div class="trainers-image-wrapper">
                     <img
                       loading="lazy"
-                      src="assets/img/team-section/sourav.jpeg"
+                      src="assets/img/team-section/ajmal_khan.jpeg"
                       alt=""
                       class="trainers-image"
                     />
@@ -1287,7 +1244,7 @@
                     class="trainers-image-placeholder"
                   />
                 </div>
-                <h3>sourav R S</h3>
+                <h3>Ajmal Khan</h3>
                 <div class="div-line"></div
               ></a>
               <div class="w-layout-grid trainers-social-buttons-grid">
@@ -1304,7 +1261,7 @@
                   href="https://www.twitter.com/mindblister_ro"
                   class="button-social w-inline-block"
                   ><img
-                    src="assets/img/team-section/team-section-icon-github.svg"
+                    src="assets/img/team-section/team-section-icon-twitter.svg"
                     loading="lazy"
                     height="24"
                     alt=""
@@ -1321,7 +1278,7 @@
                 /></a>
               </div>
             </div>
-
+            <!-- item -->
             <div role="listitem" class="trainers-item w-dyn-item">
               <a
                 href="trainers/thomas-brown.html"
@@ -1397,117 +1354,427 @@
                 /></a>
               </div>
             </div>
+            <!-- item -->
+            <div role="listitem" class="trainers-item w-dyn-item">
+              <a
+                href="trainers/alice-hart.html"
+                class="trainers-item-link-block w-inline-block"
+                ><div
+                  class="trainers-image-wrapper-tilt-left w-condition-invisible"
+                >
+                  <div class="trainers-image-wrapper">
+                    <img
+                      loading="lazy"
+                      src="assets/img/team-section/sourav.jpg"
+                      alt=""
+                      class="trainers-image"
+                    />
+                  </div>
+                  <img
+                    src="assets/img/team-section/team-section-icon-hex-right.svg"
+                    loading="lazy"
+                    alt=""
+                    class="trainers-image-placeholder"
+                  />
+                </div>
+                <div class="trainers-image-wrapper-tilt-right">
+                  <div class="trainers-image-wrapper">
+                    <img
+                      loading="lazy"
+                      src="assets/img/team-section/sourav.jpg"
+                      alt=""
+                      class="trainers-image"
+                    />
+                  </div>
+                  <img
+                    src="assets/img/team-section/team-section-icon-hex-left.svg"
+                    loading="lazy"
+                    alt=""
+                    class="trainers-image-placeholder"
+                  />
+                </div>
+                <h3>sourav R S</h3>
+                <div class="div-line"></div
+              ></a>
+              <div class="w-layout-grid trainers-social-buttons-grid">
+                <a
+                  href="https://www.facebook.com/mindblister"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-facebook.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon" /></a
+                ><a
+                  href="https://www.twitter.com/mindblister_ro"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-github.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon" /></a
+                ><a
+                  href="https://www.Instagram.com/mindblister"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-instagram.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon"
+                /></a>
+              </div>
+            </div>
+            <!-- item -->
+            <div role="listitem" class="trainers-item w-dyn-item">
+              <a
+                href="trainers/thomas-brown.html"
+                class="trainers-item-link-block w-inline-block"
+                ><div class="trainers-image-wrapper-tilt-left">
+                  <div class="trainers-image-wrapper">
+                    <img
+                      loading="lazy"
+                      src="assets/img/team-section/"
+                      alt=""
+                      class="trainers-image"
+                    />
+                  </div>
+                  <img
+                    src="assets/img/team-section/team-section-icon-hex-right.svg"
+                    loading="lazy"
+                    alt=""
+                    class="trainers-image-placeholder"
+                  />
+                </div>
+                <div
+                  class="
+                    trainers-image-wrapper-tilt-right
+                    w-condition-invisible
+                  "
+                >
+                  <div class="trainers-image-wrapper">
+                    <img
+                      loading="lazy"
+                      src="assets/img/team-section/sankar.jpg"
+                      alt=""
+                      class="trainers-image"
+                    />
+                  </div>
+                  <img
+                    src="assets/img/team-section/team-section-icon-hex-left.svg"
+                    loading="lazy"
+                    alt=""
+                    class="trainers-image-placeholder"
+                  />
+                </div>
+                <h3>Placeholder</h3>
+                <div class="div-line"></div
+              ></a>
+              <div class="w-layout-grid trainers-social-buttons-grid">
+                <a
+                  href="https://www.facebook.com/mindblister"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-facebook.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon" /></a
+                ><a
+                  href="https://www.twitter.com/mindblister_ro"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-twitter.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon" /></a
+                ><a
+                  href="https://www.instagram.com/mindblister"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-instagram.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon"
+                /></a>
+              </div>
+            </div>
+            <!-- item -->
+            <div role="listitem" class="trainers-item w-dyn-item">
+              <a
+                href="trainers/alice-hart.html"
+                class="trainers-item-link-block w-inline-block"
+                ><div
+                  class="trainers-image-wrapper-tilt-left w-condition-invisible"
+                >
+                  <div class="trainers-image-wrapper">
+                    <img
+                      loading="lazy"
+                      src="assets/img/team-section/"
+                      alt=""
+                      class="trainers-image"
+                    />
+                  </div>
+                  <img
+                    src="assets/img/team-section/team-section-icon-hex-left.svg"
+                    loading="lazy"
+                    alt=""
+                    class="trainers-image-placeholder"
+                  />
+                </div>
+                <div class="trainers-image-wrapper-tilt-right">
+                  <div class="trainers-image-wrapper">
+                    <img
+                      loading="lazy"
+                      src="assets/img/team-section/"
+                      alt=""
+                      class="trainers-image"
+                    />
+                  </div>
+                  <img
+                    src="assets/img/team-section/team-section-icon-hex-left.svg"
+                    loading="lazy"
+                    alt=""
+                    class="trainers-image-placeholder"
+                  />
+                </div>
+                <h3>Placeholder</h3>
+                <div class="div-line"></div
+              ></a>
+              <div class="w-layout-grid trainers-social-buttons-grid">
+                <a
+                  href="https://www.facebook.com/mindblister"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-facebook.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon" /></a
+                ><a
+                  href="https://www.twitter.com/mindblister_ro"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-github.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon" /></a
+                ><a
+                  href="https://www.Instagram.com/mindblister"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-instagram.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon"
+                /></a>
+              </div>
+            </div>
+            <!-- item -->
+            <div role="listitem" class="trainers-item w-dyn-item">
+              <a
+                href="trainers/thomas-brown.html"
+                class="trainers-item-link-block w-inline-block"
+                ><div class="trainers-image-wrapper-tilt-left">
+                  <div class="trainers-image-wrapper">
+                    <img
+                      loading="lazy"
+                      src="assets/img/team-section/"
+                      alt=""
+                      class="trainers-image"
+                    />
+                  </div>
+                  <img
+                    src="assets/img/team-section/team-section-icon-hex-right.svg"
+                    loading="lazy"
+                    alt=""
+                    class="trainers-image-placeholder"
+                  />
+                </div>
+                <div
+                  class="
+                    trainers-image-wrapper-tilt-right
+                    w-condition-invisible
+                  "
+                >
+                  <div class="trainers-image-wrapper">
+                    <img
+                      loading="lazy"
+                      src="assets/img/team-section/anuresh.jpeg"
+                      alt=""
+                      class="trainers-image"
+                    />
+                  </div>
+                  <img
+                    src="assets/img/team-section/team-section-icon-hex-right.svg"
+                    loading="lazy"
+                    alt=""
+                    class="trainers-image-placeholder"
+                  />
+                </div>
+                <h3>Placeholder</h3>
+                <div class="div-line"></div
+              ></a>
+              <div class="w-layout-grid trainers-social-buttons-grid">
+                <a
+                  href="https://www.facebook.com/mindblister"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-facebook.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon" /></a
+                ><a
+                  href="https://www.twitter.com/mindblister_ro"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-github.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon" /></a
+                ><a
+                  href="https://www.instagram.com/mindblister"
+                  class="button-social w-inline-block"
+                  ><img
+                    src="assets/img/team-section/team-section-icon-instagram.svg"
+                    loading="lazy"
+                    height="24"
+                    alt=""
+                    class="button-icon"
+                /></a>
+              </div>
+            </div>
+            <!-- item -->
           </div>
         </div>
       </div>
       <div class="vertical-line-bottom"></div>
     </div>
+    <!-- gallery section -->
     <div class="home-news-section">
       <div class="dark-section-text-wrapper">
-        <h6>latest news</h6>
-        <h2 class="dark-section-title-text">
-          Motivation is what gets you started Habit is what keeps you going
-        </h2>
+        <h6>Gallery</h6>
+        <h2 class="dark-section-title-text">Get an Insight into Embright</h2>
         <div class="div-line"></div>
       </div>
       <div class="general-light-block"></div>
       <div class="aux-block">
         <div class="home-news-list-wrapper w-dyn-list">
           <div role="list" class="home-news-list w-dyn-items">
+            <!-- item -->
             <div role="listitem" class="home-news-item w-dyn-item">
               <a
-                href="news/mauris-volutpat-lacus-ac-enim-laoreet-molestie.html"
+                href="assets/img/gallery-section/gallery-section-img-1.jpg"
                 class="home-news-item-link-block w-inline-block"
+                data-lity
                 ><div class="blog-item-image-wrapper">
                   <img
                     loading="lazy"
-                    src="https:assets.website-files.com/5f58c146f2c5061eba9072b1/5f5f363aa5039fc70550e63b_news1.jpg"
+                    src="assets/img/gallery-section/gallery-section-img-1.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 83vw, (max-width: 767px) 77vw, (max-width: 991px) 82vw, 25vw"           
+                    class="blog-item-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- item -->
+            <div role="listitem" class="home-news-item w-dyn-item">
+              <a
+                href="assets/img/gallery-section/gallery-section-img-2.jpg"
+                class="home-news-item-link-block w-inline-block"
+                data-lity
+                ><div class="blog-item-image-wrapper">
+                  <img
+                    loading="lazy"
+                    src="assets/img/gallery-section/gallery-section-img-2.jpg"
+                    alt=""
+                    class="blog-item-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- item -->
+            <div role="listitem" class="home-news-item w-dyn-item">
+              <a
+                href="assets/img/gallery-section/gallery-section-img-3.jpg"
+                class="home-news-item-link-block w-inline-block"
+                data-lity
+                ><div class="blog-item-image-wrapper">
+                  <img
+                    loading="lazy"
+                    src="assets/img/gallery-section/gallery-section-img-3.jpg"
                     alt=""
                     sizes="(max-width: 479px) 83vw, (max-width: 767px) 77vw, (max-width: 991px) 82vw, 25vw"
-                    srcset="
-                      https:assets.website-files.com/5f58c146f2c5061eba9072b1/5f5f363aa5039fc70550e63b_news1-p-800.jpeg  800w,
-                      https:assets.website-files.com/5f58c146f2c5061eba9072b1/5f5f363aa5039fc70550e63b_news1.jpg        1024w
-                    "
                     class="blog-item-image"
                   />
                 </div>
-                <div class="blog-item-text-wrapper">
-                  <h6>Sep 10, 2020</h6>
-                  <h3 class="blog-item-title-text">
-                    Mauris volutpat lacus ac enim laoreet molestie
-                  </h3>
-                  <div class="horizontal-line"></div>
-                  <p class="blog-item-short-desciption-text">
-                    Aut minus itaque incidunt consequuntur eum ullam.
-                    Dignissimos error voluptas ducimus nemo possimus rerum culpa
-                    incidunt quas.
-                  </p>
-                </div></a
-              >
+              </a>
             </div>
+            <!-- item -->
             <div role="listitem" class="home-news-item w-dyn-item">
               <a
-                href="news/nullam-id-massa-porttitorum-ullam-corperum.html"
+                href="assets/img/gallery-section/gallery-section-img-4.jpg"
                 class="home-news-item-link-block w-inline-block"
+                data-lity
                 ><div class="blog-item-image-wrapper">
                   <img
                     loading="lazy"
-                    src="https:assets.website-files.com/5f58c146f2c5061eba9072b1/5f5f3642865ef52f68722164_news2.jpg"
-                    alt=""
-                    class="blog-item-image"
-                  />
-                </div>
-                <div class="blog-item-text-wrapper">
-                  <h6>Sep 10, 2020</h6>
-                  <h3 class="blog-item-title-text">
-                    Nullam id massa porttitorum, ullam corperum
-                  </h3>
-                  <div class="horizontal-line"></div>
-                  <p class="blog-item-short-desciption-text">
-                    Aut minus itaque incidunt consequuntur eum ullam.
-                    Dignissimos error voluptas ducimus nemo possimus rerum culpa
-                    incidunt quas.
-                  </p>
-                </div></a
-              >
-            </div>
-            <div role="listitem" class="home-news-item w-dyn-item">
-              <a
-                href="news/ut-lobortis-urna-in-laudantium-semper-pulvinar.html"
-                class="home-news-item-link-block w-inline-block"
-                ><div class="blog-item-image-wrapper">
-                  <img
-                    loading="lazy"
-                    src="https:assets.website-files.com/5f58c146f2c5061eba9072b1/5f5f364aa1c147846de93d34_news3.jpg"
+                    src="assets/img/gallery-section/gallery-section-img-4.jpg"
                     alt=""
                     sizes="(max-width: 479px) 83vw, (max-width: 767px) 77vw, (max-width: 991px) 82vw, 25vw"
-                    srcset="
-                      https:assets.website-files.com/5f58c146f2c5061eba9072b1/5f5f364aa1c147846de93d34_news3-p-500.jpeg  500w,
-                      https:assets.website-files.com/5f58c146f2c5061eba9072b1/5f5f364aa1c147846de93d34_news3-p-800.jpeg  800w,
-                      https:assets.website-files.com/5f58c146f2c5061eba9072b1/5f5f364aa1c147846de93d34_news3.jpg        1024w
-                    "
                     class="blog-item-image"
                   />
                 </div>
-                <div class="blog-item-text-wrapper">
-                  <h6>Sep 10, 2020</h6>
-                  <h3 class="blog-item-title-text">
-                    Ut lobortis urna in laudantium semper pulvinar
-                  </h3>
-                  <div class="horizontal-line"></div>
-                  <p class="blog-item-short-desciption-text">
-                    Aut minus itaque incidunt consequuntur eum ullam.
-                    Dignissimos error voluptas ducimus nemo possimus rerum culpa
-                    incidunt quas.
-                  </p>
-                </div></a
-              >
+              </a>
+            </div>
+            <!-- item -->
+            <div role="listitem" class="home-news-item w-dyn-item">
+              <a
+                href="assets/img/gallery-section/gallery-section-img-5.jpg"
+                class="home-news-item-link-block w-inline-block"
+                data-lity
+                ><div class="blog-item-image-wrapper">
+                  <img
+                    loading="lazy"
+                    src="assets/img/gallery-section/gallery-section-img-5.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 83vw, (max-width: 767px) 77vw, (max-width: 991px) 82vw, 25vw"
+                    class="blog-item-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- item -->
+            <div role="listitem" class="home-news-item w-dyn-item">
+              <a
+                href="assets/img/gallery-section/gallery-section-img-6.jpg"
+                class="home-news-item-link-block w-inline-block"
+                data-lity
+                ><div class="blog-item-image-wrapper">
+                  <img
+                    loading="lazy"
+                    src="assets/img/gallery-section/gallery-section-img-6.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 83vw, (max-width: 767px) 77vw, (max-width: 991px) 82vw, 25vw"
+                    class="blog-item-image"
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <!-- footer section -->
     <div class="footer-section">
       <div class="w-layout-grid footer-grid">
         <div
@@ -1546,11 +1813,7 @@
       </div>
     </div>
     <script src="assets/js/main.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
+    <script src="assets/js/vendor/jquery/jquery.min.js"></script>
     <script src="assets/js/vendor/lity/lity.min.js"></script>
   </body>
 </html>
